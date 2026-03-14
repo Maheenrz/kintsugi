@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kintsugi | The Beauty of Imperfection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+
+    <div id="main-container">
+        <header>
+            <h1>KINTSUGI</h1>
+            <div class="subtitle">金継ぎ</div>
+            <p class="instruction">Tap the vessel to begin the repair</p>
+        </header>
+
+        <div id="canvas-wrapper"></div>
+
+        <section class="content-section">
+            <aside class="concept-card">
+                <h2>The Art of Precious Scars</h2>
+                <p>
+                    <strong>Kintsugi</strong> is the Japanese art of repairing broken pottery with lacquer dusted or mixed with powdered gold. 
+                </p>
+                <p>
+                    As a philosophy, it treats breakage and repair as part of the history of an object, rather than something to disguise. 
+                </p>
+                <div class="divider"></div>
+                <p class="philosophy">
+                    <em>"The world breaks everyone and afterward many are strong at the broken places."</em>
+                </p>
+            </aside>
+
+            <footer>
+                <button class="action-btn" onclick="saveKintsugi()">Save Art</button>
+                <button class="action-btn" onclick="clearCanvas()">Reset Jar</button>
+            </footer>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
